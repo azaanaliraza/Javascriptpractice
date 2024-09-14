@@ -1,3 +1,4 @@
+
 let js = "123";
 if (js === "123") alert("Js is amazing")
 
@@ -11,5 +12,17 @@ let population = 200
 console.log(country)
 console.log(continent)
 console.log(population)
+//-------------------------------------------------------------
+
+// Second Assignment
+
+let isIsland = false;
+let language;
+
+console.log(typeof isIsland)
+console.log(typeof population)
+console.log(typeof country)
+console.log(typeof language)
+
 //-------------------------------------------------------------
 
