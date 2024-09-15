@@ -1,4 +1,4 @@
-
+/*
 let js = "123";
 if (js === "123") alert("Js is amazing")
 
@@ -53,4 +53,20 @@ const description1 =
 console.log(description1);
 
 //-------------------------------------------------------------
+*/
 
+// Codiing Challenge #1
+
+let marksweight = 78;
+let marksheight = 1.69;
+
+let johnsweight = 92;
+let johnsheight = 1.95;
+
+let bmiJohn = johnsweight / johnsheight ** 2;
+let bmimark = marksweight / marksheight ** 2;
+
+console.log("John's BMI is " + bmiJohn, "Mark's BMI is " + bmimark);
+
+let markHigherBMI = bmimark > bmiJohn;
+console.log(markHigherBMI);
