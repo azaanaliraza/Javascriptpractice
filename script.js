@@ -32,4 +32,25 @@ language = "Hindi"
 
 //-------------------------------------------------------------
 
+// Fourth Assignment
+
+let halfPopulation = population / 2;
+population++;
+console.log(population);
+let finlPopu = 6
+if (population > finlPopu) console.log("Yes")
+
+let avgpop = 33
+console.log(population < avgpop)
+const description1 =
+    country +
+    ' is in ' +
+    continent +
+    ', and its ' +
+    population +
+    ' million people speak ' +
+    language;
+console.log(description1);
+
+//-------------------------------------------------------------
 
