@@ -69,4 +69,19 @@ let bmimark = marksweight / marksheight ** 2;
 console.log("John's BMI is " + bmiJohn, "Mark's BMI is " + bmimark);
 
 let markHigherBMI = bmimark > bmiJohn;
+
 console.log(markHigherBMI);
+
+//-------------------------------------------------------------
+
+// Coding Challenge #2
+
+let johnHigherBMI = bmiJohn > bmimark;
+
+if (markHigherBMI == true) {
+    console.log("Mark's BMI is higher than John's!")
+    console.log(`Mark's BMI (${bmimark}) is higher than John's (${bmiJohn})!`)
+} else {
+    console.log("John's BMI is higher than Mark's!")
+    console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmimark})!`)
+}
