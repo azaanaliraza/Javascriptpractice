@@ -55,6 +55,8 @@ console.log(description1);
 //-------------------------------------------------------------
 */
 
+/*
+
 // Codiing Challenge #1
 
 let marksweight = 78;
@@ -84,4 +86,21 @@ if (markHigherBMI == true) {
 } else {
     console.log("John's BMI is higher than Mark's!")
     console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmimark})!`)
+}
+
+*/
+
+//-------------------------------------------------------------
+
+// Coding Assignment
+
+let numNeighbours = prompt("Enter the number of neighbour your country have?");
+numNeighbours = Number(numNeighbours);
+
+if (numNeighbours === 1) {
+    console.log("We have only one border");
+} else if (numNeighbours > 1) {
+    console.log("We have more than one borders");
+} else {
+    console.log("We have no border");
 }
