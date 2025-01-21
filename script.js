@@ -93,14 +93,3 @@ if (markHigherBMI == true) {
 //-------------------------------------------------------------
 
 // Coding Assignment
-
-let numNeighbours = prompt("Enter the number of neighbour your country have?");
-numNeighbours = Number(numNeighbours);
-
-if (numNeighbours === 1) {
-    console.log("We have only one border");
-} else if (numNeighbours > 1) {
-    console.log("We have more than one borders");
-} else {
-    console.log("We have no border");
-}
